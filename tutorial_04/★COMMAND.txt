@@ -1,0 +1,3 @@
+for %f in (*.shp) do (
+    ogr2ogr -f FlatGeobuf -nlt PROMOTE_TO_MULTI %~nf.fgb %f
+)

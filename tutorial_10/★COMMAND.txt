@@ -1,0 +1,6 @@
+
+gdal2tiles --zoom=1-4 --xyz NE1_50M_SR_W.tif tiles
+
+python3 generate_metadata.py tiles
+
+python3 mbutil-master\mb-util tiles tiles.mbtiles

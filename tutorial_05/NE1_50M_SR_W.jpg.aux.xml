@@ -1,0 +1,55 @@
+<PAMDataset>
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="COMPRESSION">JPEG</MDI>
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+    <MDI key="SOURCE_COLOR_SPACE">YCbCr</MDI>
+  </Metadata>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+    <MDI key="TIFFTAG_DATETIME">2009:09:19 10:01:31</MDI>
+    <MDI key="TIFFTAG_RESOLUTIONUNIT">2 (pixels/inch)</MDI>
+    <MDI key="TIFFTAG_SOFTWARE">Adobe Photoshop CS3 Macintosh</MDI>
+    <MDI key="TIFFTAG_XRESOLUTION">342.85699</MDI>
+    <MDI key="TIFFTAG_YRESOLUTION">342.85699</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">253</MDI>
+      <MDI key="STATISTICS_MEAN">153.39838741396</MDI>
+      <MDI key="STATISTICS_MINIMUM">98</MDI>
+      <MDI key="STATISTICS_STDDEV">47.524076901137</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">187.53710914454</MDI>
+      <MDI key="STATISTICS_MINIMUM">143</MDI>
+      <MDI key="STATISTICS_STDDEV">27.15768966003</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">206.08676499508</MDI>
+      <MDI key="STATISTICS_MINIMUM">158</MDI>
+      <MDI key="STATISTICS_STDDEV">17.647823865136</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

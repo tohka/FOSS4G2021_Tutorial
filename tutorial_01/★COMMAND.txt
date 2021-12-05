@@ -1,0 +1,7 @@
+ogrinfo ne_50m_land.shp
+ogrinfo ne_50m_land.gpkg
+ogrinfo ne_50m_land.json
+
+ogrinfo -so ne_50m_land.shp ne_50m_land
+ogrinfo -so ne_50m_land.gpkg ne_50m_land
+ogrinfo -so ne_50m_land.json ne_50m_land

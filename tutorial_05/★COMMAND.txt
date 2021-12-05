@@ -1,0 +1,4 @@
+gdalinfo NE1_50M_SR_W.tif
+gdalinfo NE1_50M_SR_W.jpg
+gdalinfo NE1_50M_SR_W_no_aux.jpg
+gdalinfo NE1_50M_SR_W_no_wld.jpg

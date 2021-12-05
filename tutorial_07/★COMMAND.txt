@@ -1,0 +1,5 @@
+gdalinfo NE1_50M_SR_W_no_wld.jpg
+
+gdal_translate -of GTiff -a_srs EPSG:4326 -a_ullr -180 90 180 -90 NE1_50M_SR_W_no_wld.jpg NE1_50M_SR_W_with_pos.tif
+
+gdalinfo NE1_50M_SR_W_with_pos.tif

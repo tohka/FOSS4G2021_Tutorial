@@ -1,0 +1,3 @@
+ogr2ogr -f GPKG ne_50m_land.gpkg ne_50m_land.shp
+
+ogr2ogr -f GPKG -nlt PROMOTE_TO_MULTI -oo ENCODING=UTF-8 ne_50m_land.gpkg ne_50m_land.shp

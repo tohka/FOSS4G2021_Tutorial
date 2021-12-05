@@ -1,0 +1,1 @@
+gdal_translate -of JPEG -co WORLDFILE=YES NE1_50M_SR_W.tif NE1_50M_SR_W.jpg

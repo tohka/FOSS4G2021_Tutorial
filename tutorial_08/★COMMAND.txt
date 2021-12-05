@@ -1,0 +1,2 @@
+
+gdalwarp -of GTiff -t_srs EPSG:3832 -te -20000000 -20000000 20000000 20000000 -ts 2000 2000 -r cubic NE1_50M_SR_W.tif NE1_50M_SR_W_3832.tif

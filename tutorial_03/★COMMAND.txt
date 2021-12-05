@@ -1,0 +1,1 @@
+ogr2ogr -f GPKG -s_srs EPSG:4326 -t_srs EPSG:3857 ne_50m_land_3857.gpkg ne_50m_land.gpkg

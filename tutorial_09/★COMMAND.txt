@@ -1,0 +1,6 @@
+
+python3 download_tiles.py
+
+gdalbuildvrt -a_srs EPSG:3857 tiles.vrt *.png
+
+gdalwarp -t_srs "+proj=lcc +ellps=GRS80 +lon_0=137 +lat_1=34.083333 +lat_2=37.916667" tiles.vrt japan_lcc.tif
